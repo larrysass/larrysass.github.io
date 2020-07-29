@@ -1,0 +1,58 @@
+body {
+    opacity: 0;
+}
+
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 450px) { 
+      
+      body{
+          background-image: url("./assets/peas.jpg");
+          opacity: 1;
+      }
+    .soundBoxWrapper {
+        background-color: rgba(65, 42, 32, 1);
+        color: burlywood;
+        width: 80%;
+        height: 1600px;
+        margin: auto;
+        margin-top: 20%;
+        border-radius: 50px;
+        padding: 5%;
+    }
+    .speakerHolesWrapper {
+        width: 100%;
+        height: 20%;
+        display: flex;
+  }
+    .speakerHoles{
+       margin: auto;
+        height: 100%;
+    }
+
+    .buttonGrid{
+        display: flex;
+        height: 75%;
+        margin-top: 5%;
+    }
+    .buttonColumn{
+        flex: 1;
+    }
+    .button{
+    width: 70%;
+    margin: auto;
+    margin-bottom: 15%;
+    }
+    .button:hover{
+        transform: scale(0.8);
+        transition: all 0.2s ease;
+    }
+    .button > img {
+    width: 100%;
+    border-radius: 50%;
+    }
+    .tipsyScoop {
+        background-color: pink;
+    }
+}
